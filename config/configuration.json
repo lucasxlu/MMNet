@@ -1,0 +1,24 @@
+{
+  "root": "/home/xulu/DataSet/TreeCNN",
+  "RAF-Face": {
+    "batch_size": 32,
+    "init_lr": 0.01,
+    "lr_decay_step": 40,
+    "weight_decay": 5e-3,
+    "epoch": 200
+  },
+  "FER2013": {
+    "batch_size": 64,
+    "init_lr": 0.001,
+    "lr_decay_step": 40,
+    "weight_decay": 5e-3,
+    "epoch": 200
+  },
+  "RAF-Part": {
+    "batch_size": 32,
+    "init_lr": 0.001,
+    "lr_decay_step": 40,
+    "weight_decay": 1e-2,
+    "epoch": 100
+  }
+}
